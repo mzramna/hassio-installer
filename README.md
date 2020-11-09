@@ -1,4 +1,4 @@
-# Hass.io Installer for Raspberry Pi 3 B+
+# Hass.io Installer for Raspberry Pi 4 B
 
 [![Documentation][badge-docs]][hass-io]
 [![Discord][badge-discord]][discord]
@@ -10,7 +10,7 @@ This script will install all [requirements][requirements], and then install
 
 ## Requirements
 
-- [Raspberry Pi 3 B+][raspberry-pi]
+- [Raspberry Pi 4 B][raspberry-pi]
 - [Raspbian Stretch Lite][stretch-lite]
 
 ## Useful Tips
@@ -30,7 +30,7 @@ This script will install all [requirements][requirements], and then install
 1. Run this as root user (`sudo su`):
 
 ```bash
-curl -sL https://raw.githubusercontent.com/dale3h/hassio-installer/master/hassio_rpi3bp | bash -s
+curl -sL https://raw.githubusercontent.com/mzramna/hassio-installer/master/hassio_rpi3bp | bash -s
 ```
 
 ## Known Issues
@@ -87,13 +87,7 @@ SOFTWARE.
 [hass-io]: https://www.home-assistant.io/hassio/
 [hassio-installer]: https://github.com/dale3h/hassio-installer
 [issues]: /issues
-[keep-a-changelog]: https://keepachangelog.com/en/1.0.0/
-[raspberry-pi]: http://a.co/ciXqByX
 [requirements]: https://github.com/home-assistant/hassio-build/blob/master/install/README.md#requirements
-[semantic-versioning]: https://semver.org/spec/v2.0.0.html
 [stretch-lite]: https://downloads.raspberrypi.org/raspbian_lite_latest
 
-[badge-discord]: https://img.shields.io/discord/330944238910963714.svg?style=for-the-badge&maxAge=3600
-[badge-docs]: https://img.shields.io/badge/read-docs-blue.svg?style=for-the-badge
-[badge-donate]: https://img.shields.io/badge/beerpay-$5-orange.svg?style=for-the-badge
-[badge-version]: https://img.shields.io/badge/version-1.1.1-red.svg?style=for-the-badge
+
