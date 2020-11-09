@@ -1,4 +1,4 @@
-# Hass.io Installer for Raspberry Pi 3 B+
+# Hass.io Installer for Raspberry Pi 4 B
 
 All notable changes to this project will be documented in this file.
 
@@ -9,6 +9,11 @@ and this project adheres to [Semantic Versioning][semantic-versioning].
 
 - Option to disable SSH after installation
 - Change port for SSH server on host machine
+
+## [1.1.2][] - 2020-11-09
+
+### Converted
+- The main script has been converted to be used at raspberry pi 4 b
 
 ## [1.1.1][] - 2018-04-05
 
